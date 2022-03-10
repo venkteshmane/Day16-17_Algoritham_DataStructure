@@ -9,7 +9,7 @@ public class UnorderedList {
     public static void main(String[] args) {
         try
         {
-            File file = new File("/home/ubuntu/Desktop/ABC.java");
+            File file = new File("/home/Desktop/ABC.java");
             Scanner sc = new Scanner(file);
             String string = sc.nextLine();
             String[] arr = string.split(",");
@@ -45,5 +45,4 @@ public class UnorderedList {
             System.out.println(e);
         }
     }
-
 }
